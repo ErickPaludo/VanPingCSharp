@@ -1,0 +1,109 @@
+05/07/2024 11:44:06 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 22
+05/07/2024 11:44:21 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 22
+05/07/2024 11:46:43 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-03135: A conexão perdeu o contato
+https://docs.oracle.com/error-help/db/ora-03135/
+ ---> OracleInternal.Network.NetworkException (0x80004005): ORA-03135: A conexão perdeu o contato
+https://docs.oracle.com/error-help/db/ora-03135/
+ ---> System.Net.Sockets.SocketException (10053): Uma conexão estabelecida foi anulada pelo software no computador host.
+   at OracleInternal.Network.ReaderStream.Read(OraBuf OB, Int32& InbandErr, String& InbandErrMsg)
+   at OracleInternal.Network.ReaderStream.Read(OraBuf OB, Int32& InbandErr, String& InbandErrMsg)
+   at OracleInternal.TTC.OraBufReader.GetDataFromNetwork(Boolean bAsync)
+   at OracleInternal.TTC.OraBufReader.Read(Boolean bAsync, Boolean bIgnoreData)
+   at OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[] bindAccessors, Boolean bHasReturningParams, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32 longFetchSize, Int64 clientInitialLOBFetchSize, Int64 initialLOBFetchSize, Int64 initialJSONFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, Boolean bDefineDone, RER_RefAndOutParamArgCtx refOutArgCtx, Boolean bReadSqlId, Boolean bLOBArrayFetchRequired, Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 25
+05/07/2024 11:49:26 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 22
+05/07/2024 11:49:41 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 22
+05/07/2024 14:15:05 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:15:12 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50201: Oracle Communication: Failed to connect to server or failed to parse connect string
+ ---> OracleInternal.Network.NetworkException (0x80004005): ORA-50201: Oracle Communication: Failed to connect to server or failed to parse connect string
+ ---> OracleInternal.Network.NetworkException (0x80004005): ORA-50232: Network Transport: TCP transport address connect failure for  host 25.3.74.251 port 1521. (CONNECTION_ID=CuPSBuUbaUaXRGB4mUfETg==)
+   at OracleInternal.Network.TcpTransportAdapter.ConnectIterate()
+   at OracleInternal.Network.OracleCommunication.ConnectViaCO(ConnectionOption connOption, AddressResolution addrRes, Boolean bAsync)
+   at OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor, Boolean bAsync)
+   at OracleInternal.Network.OracleCommunication.Connect(String tnsDescriptor, Boolean doNAHandshake, String IName, ConnectionOption CO, Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName, Boolean bAsync)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:15:33 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:15:53 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:16:13 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:16:57 - Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-50000: Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString securedPassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 24
+05/07/2024 14:29:58 - System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at VanPing.Dados.ColetaUsuarios() in C:\Users\Erick\source\repos\VanPing\VanPing\Dados.cs:line 38
+05/07/2024 14:32:28 - System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at VanPing.Dados.ColetaUsuarios()
+05/07/2024 14:35:37 - System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at VanPing.Dados.ColetaUsuarios()
